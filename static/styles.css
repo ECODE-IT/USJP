@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+.box{
+    background-color: tomato;
+    flex: 80%;
+}
+.icon{
+    background-color: wheat;
+    flex: 20%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.leaf{
+    background-color: teal;
+    margin: 2% 8% 2% 8%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+#one{
+    margin-bottom: 2rem;
+}
+
+.msg{
+    height: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#wish{
+    font-weight: 900;
+}

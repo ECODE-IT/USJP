@@ -6,27 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keells Online</title>
+    <link rel="stylesheet" href="../static/styles.css">
 </head>
 
 <body>
-    <div id='main'>
-        <div class="col">
+    <div id='main' class="col">
+        <div id="one" class="col">
             <div id="logo">
                 <!-- logo-->
+                <span>LOGO</span>
             </div>
-            <div id='welcome'>
+            <div id='welcome' class="col">
                 <!-- message-->
+                <span class="msg">Hello,</span>
+                <span class="msg">Log into your</span>
+                <span class="msg">account for a</span>
+                <span class="msg">quick and easy</span>
+                <span class="msg">shopping</span>
+                <span class="msg">experience</span>
+                <span class="msg" id="wish">Happy shopping!</span>
             </div>
         </div>
-        <div class="col">
-            <div id="register" class="box">
-
+        <div id="two" class="col">
+            <div class='row leaf'>
+                <div class="icon">Icon</div>
+                <div id="login" class="col box">
+                    <span class="question">Already registered?</span>
+                    <span class="answer">Login here</span>
+                </div>
             </div>
-            <div id="login" class="box">
-
+            <div class='row leaf'>
+                <div class="icon">Icon</div>
+                <div id="register" class="col box">
+                    <span class="question">New to Keells?</span>
+                    <span class="answer">Register here</span>
+                </div>
             </div>
-            <div id="track" class="box">
-
+            <div  class='row leaf'>
+                <div class="icon">Icon</div>
+                <div id="track" class="col box">
+                    <span class="question">Track your order?</span>
+                    <span class="answer">Click here</span>
+                </div>
             </div>
         </div>
     </div>

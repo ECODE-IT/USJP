@@ -2,11 +2,9 @@ body {
     background-color: aquamarine;
 }
 .box{
-    background-color: tomato;
     flex: 80%;
 }
 .icon{
-    background-color: wheat;
     flex: 20%;
 }
 
@@ -16,11 +14,13 @@ body {
 }
 
 .leaf{
-    background-color: teal;
+    background-color:#009448;
     margin: 8px 8% 8px 8%;
     max-width: 300px;
     padding: 20px;
     border-radius: 20px 0px 20px 0px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row{
@@ -43,4 +43,14 @@ body {
 
 #wish{
     font-weight: 900;
+}
+
+.question{
+    font-weight: bold;
+}
+
+.circle{
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
 }

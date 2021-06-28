@@ -1,3 +1,6 @@
+:root{
+    --leaf-green : #009448;
+}
 body {
     background-color: aquamarine;
 }
@@ -14,7 +17,7 @@ body {
 }
 
 .leaf{
-    background-color:#009448;
+    background-color: var(--leaf-green);
     margin: 8px 8% 8px 8%;
     max-width: 300px;
     padding: 20px;
@@ -50,7 +53,15 @@ body {
 }
 
 .circle{
-    border-radius: 10px;
-    border-color: white;
-    border-width: 1px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.icon-img{
+    width: 20px;
+    height: 20px;
+    margin: 7.5px;
+    padding: 2px 3px 2px 3px;
 }

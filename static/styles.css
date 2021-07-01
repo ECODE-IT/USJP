@@ -1,9 +1,8 @@
 :root{
-    --leaf-green : #009448;
+    --keells-green : #009448;
 }
 
-body {
-    background-color: aquamarine;
+.bg-image {
     background-image: url('../static/login-mob.png');
     height: 100%;
     background-repeat: no-repeat;
@@ -23,7 +22,7 @@ body {
 }
 
 .leaf{
-    background-color: var(--leaf-green);
+    background-color: var(--keells-green);
     margin: 8px 8% 8px 8%;
     max-width: 300px;
     padding: 20px;
@@ -43,6 +42,8 @@ body {
 
 .text-content{
     padding: 50px 0px 30px 15px;
+    color: white;
+    text-shadow: 2px 2px grey;
 }
 
 .msg{
@@ -70,4 +71,32 @@ body {
     height: 20px;
     margin: 7.5px;
     padding: 2px 3px 2px 3px;
+}
+
+@media only screen and (min-width: 1100px){
+    body{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .bg-image{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: relative;
+    
+    }
+    #main{
+        flex-direction: row;
+        width: 800px;
+        height: 300px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        margin-top: -150px;
+    }
+    .half{
+        flex: 50%;
+    }
 }

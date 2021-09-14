@@ -1,0 +1,45 @@
+#main{
+    margin-top: 20vh;
+    cursor: default;
+}
+
+.semester{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+.topic{
+    font-size: 1.2em;
+}
+
+
+.form-control{
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.input-group{
+    border-radius: 1.5em;
+}
+
+.input-group button{
+    border:none;
+    color:gray;
+}
+
+.input-group button:hover{
+    color:black;
+}
+
+.input-group button:focus{
+    box-shadow: none;
+}
+
+/**
+.bg-dark{
+    background-color: #929292 !important;
+}*/

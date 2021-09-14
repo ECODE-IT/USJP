@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f6557a91b0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="header fixed-top">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-4 col-md-2 header-top" style="background-color: #42A5F5;">
+                        <img class="header-img" src="/images/learning.png" alt="">
+                    </div>
+                    <div class="col-4 col-md-8 header-top d-flex justify-content-centers bg-white">
+                        <img class="header-img" src="/images/logo.png" alt="">
+                    </div>
+                    <div class="col-4 col-md-12">
+                        <nav class="navbar navbar-expand-md navbar-light bg-white">
+                            <button class="ml-auto navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar" style="font-family: 'Roboto';">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item d-flex justify-content-end  active mr-md-4 mr-lg-5">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end dropdown mr-md-4 mr-lg-5">
+                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown1"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Students</a>
+                                        <div class="dropdown-menu px-2" aria-labelledby="dropdown1">
+                                            <a class="border-bottom dropdown-item pl-1" href="#">Student Enrollment</a>
+                                            <a class="border-bottom dropdown-item pl-1" href="#">Academic Calender</a>
+                                            <a class="dropdown-item pl-1" href="#">Student Payment</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end dropdown mr-md-4 mr-lg-5">
+                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown2"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Courses</a>
+                                        <div class="dropdown-menu px-2" aria-labelledby="dropdown2">
+                                            <a class="border-bottom dropdown-item pl-1" href="#">Moodle</a>
+                                            <a class="dropdown-item pl-1" href="#">My Results</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end mr-md-4 mr-lg-5">
+                                        <a class="nav-link" href="#">Library</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end mr-md-4 mr-lg-5">
+                                        <a class="nav-link" href="#">Alumni</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end">
+                                        <a class="nav-link" href="#">Contact us</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item d-flex justify-content-end">
+                                        <a class="nav-link py-0" href="#">
+                                            <img src="/images/profile.png" class="nav-profile-img pr-2" alt="">
+                                            My Profile</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid" id="main">
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-8 mt-3 mt-sm-4 border border-1 roboto">
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col-12 col-md-4 my-2">
+                            <div class="input-group border">
+                                <input class="form-control pl-4"
+                                style="border-radius: 1.5rem 0 0 1.5rem; border-right: none;"
+                                placeholder="Search Courses..." type="text">
+                            <div class="input-group-append">
+                                <button class="btn bg-transparent"><i class="fas fa-search"></i></button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 py-2">Registered Courses</div>
+                        <div class="col-12">
+                            <div class="bg-dark text-light py-2 px-5 topic">1st Year</div>
+                            <div class="col-12 bg-light py-2 px-5 semester border-bottom topic">Semester 01</div>
+                            <div class="col-12 py-2 px-sm--5 semester-details collapse">
+                                <div class="row">
+                                    <div class="col-12 py-2">
+                                        <div class="row">
+                                            <div class="col-12 topic">
+                                                EC 1004 - Information Skill Development
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: Sajeewanie Somaratna
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-2 bg-light">
+                                        <div class="row">
+                                            <div class="col-12 topic">
+                                                EC 1001 - English
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: Thisaru Anjana <br>
+                                                Teacher: Dilshan Chathuranga <br>
+                                                Teacher: Iroshmal Peiris <br>
+                                                Teacher: Hasini Perera
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 bg-light py-2 pl-5 semester topic">Semester 02</div>
+                            <div class="col-12 py-2 px-sm-5 semester-details collapse">
+                                <div class="row">
+                                    <div class="col-12 py-2">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                EC 1015 Career and Personal Development I
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: Chamari Hettiarachchi <br>
+                                                Teacher: Chandrika Nanayakkara </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-2 bg-light">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                CS 1101 - Fundamentals of Programming
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: ERAD Bandara <br>
+                                                Teacher: Mr. Niyomal Boteju </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="bg-dark text-light py-2 px-5 topic">2nd Year</div>
+                            <div class="col-12 bg-light py-2 px-5 semester border-bottom topic">Semester 01</div>
+                            <div class="col-12 py-2 px-sm-5 semester-details collapse">
+                                <div class="row">
+                                    <div class="col-12 py-2">
+                                        <div class="row">
+                                            <div class="col-12 topic">
+                                                CS 1102 - Introduction to Computing
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: ERAD Bandara <br>
+                                                Teacher: UCSC-SCI Coordinator<br>
+                                                Teacher: Hiran Ekanayake<br>
+                                                Teacher: Isuru Nanayakkara<br>
+                                                Teacher: Kokila Perera<br>
+                                                Teacher: Dr. Damitha Sandaruwan<br>
+                                                Teacher: Asanka Sayakkara<br>
+                                                Teacher: Sanduni Thrimahavithana
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-2 bg-light">
+                                        <div class="row">
+                                            <div class="col-12 topic">
+                                                EC 1016 Career Planing
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: Dharshani Bandupriya <br>
+                                                Teacher: Inoka Perera
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 bg-light py-2 pl-5 semester topic">Semester 02</div>
+                            <div class="col-12 py-2 px-sm-5 semester-details collapse">
+                                <div class="row">
+                                    <div class="col-12 py-2">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                EC 1015 Career and Personal Development I
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: Chamari Hettiarachchi <br>
+                                                Teacher: Chandrika Nanayakkara </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-2 bg-light">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                CS 1101 - Fundamentals of Programming
+                                            </div>
+                                            <div class="col-12">
+                                                Teacher: ERAD Bandara <br>
+                                                Teacher: Mr. Niyomal Boteju </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/home.js"></script>
+</body>
+
+</html>

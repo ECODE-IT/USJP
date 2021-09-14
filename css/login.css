@@ -1,0 +1,62 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.login{
+    position: absolute;
+    top: 20vh;
+}
+
+
+.bg-light{
+    background-color: #ECEEEF !important ;
+}
+
+.bg-maroon{
+    background-color: #88112F;
+}
+
+.text-maroon{
+    color:#88112F;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border-color: #ECEEEF !important;
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+
+input{
+    height: 3rem;
+}
+
+input::placeholder{
+    color:#939191;
+}
+
+#login-form{
+    min-height: 60vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .login {
+      top:10vh;
+    }
+    #login-form{
+        min-height: 45vh;
+    }
+    
+}

@@ -16,13 +16,14 @@
 }
 
 .nav-profile-img{
-    height: 8vh;
     width: 8vh;
+    height: 8vh;
     object-fit: contain;
+    border-radius: 50%;
 }
 
 .main{
-    margin-top: 22vh;
+    margin-top: 18.5vh;
     cursor: default;
 }
 

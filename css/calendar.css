@@ -1,0 +1,9 @@
+.notice-image{
+    width: 100%;
+    height: auto;
+}
+
+#notices{
+    height: 60vh;
+    overflow: auto;
+}

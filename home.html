@@ -21,21 +21,26 @@
 <body>
     <header>
         <div class="header fixed-top">
-            <div class="container-fluid px-0">
+            <div class="container-fluid px-0 bg-white ">
                 <div class="row">
-                    <div class="col-4 col-md-2 header-top" style="background-color: #42A5F5;">
+                    <div class="col-3 col-md-2 header-top" style="background-color: #42A5F5;">
                         <img class="header-img" src="/images/learning.png" alt="">
                     </div>
-                    <div class="col-4 col-md-8 header-top d-flex justify-content-centers bg-white">
+                    <div class="col-5 px-0 mx-auto mx-md-0 col-md-8 header-top d-flex justify-content-center bg-white">
                         <img class="header-img" src="/images/logo.png" alt="">
                     </div>
-                    <div class="col-4 col-md-12">
+                    <div class="col-2 px-0 px-md-2 col-md-12">
                         <nav class="navbar navbar-expand-md navbar-light bg-white">
                             <button class="ml-auto navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbar" aria-controls="navbar" aria-expanded="false"
                                 aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
+                            
+                        </nav>
+                    </div>
+                    <div class="col-12">
+                        <nav class="navbar py-0 navbar-expand-md navbar-light bg-white">
                             <div class="collapse navbar-collapse" id="navbar" style="font-family: 'Roboto';">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item d-flex justify-content-end  active mr-md-4 mr-lg-5">
@@ -84,14 +89,14 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid" id="main">
+    <div class="container-fluid main">
         <div class="row justify-content-center">
-            <div class="col-10 col-sm-8 mt-3 mt-sm-4 border border-1 roboto">
+            <div class="col-10 col-sm-8 mt-2 mt-sm-4 border border-1 roboto">
                 <div class="container py-3">
                     <div class="row">
                         <div class="col-12 col-md-4 my-2">
                             <div class="input-group border">
-                                <input class="form-control pl-4"
+                                <input id="search-courses" class="form-control pl-4"
                                 style="border-radius: 1.5rem 0 0 1.5rem; border-right: none;"
                                 placeholder="Search Courses..." type="text">
                             <div class="input-group-append">
@@ -198,7 +203,7 @@
                                 <div class="row">
                                     <div class="col-12 py-2">
                                         <div class="row">
-                                            <div class="col-12">
+                                            <div class="col-12 topic">
                                                 EC 1015 Career and Personal Development I
                                             </div>
                                             <div class="col-12">
@@ -208,7 +213,7 @@
                                     </div>
                                     <div class="col-12 py-2 bg-light">
                                         <div class="row">
-                                            <div class="col-12">
+                                            <div class="col-12 topic" >
                                                 CS 1101 - Fundamentals of Programming
                                             </div>
                                             <div class="col-12">

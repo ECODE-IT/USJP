@@ -16,10 +16,15 @@
 }
 
 .nav-profile-img{
-    height: 7vh;
-    object-fit: cover;
+    height: 8vh;
+    width: 8vh;
+    object-fit: contain;
 }
 
+.main{
+    margin-top: 22vh;
+    cursor: default;
+}
 
 .poppins{
     font-family: 'Poppins', sans-serif;
@@ -27,4 +32,15 @@
 
 .roboto{
     font-family: 'Roboto', sans-serif;
+}
+
+.blue-glow{
+    box-shadow: 1px 1px 2px 2px lightskyblue,-1px -1px 2px 2px lightskyblue;
+}
+
+@media only screen and (max-width: 767px) {
+    .main {
+      margin-top:12.5vh;
+    }
+
 }

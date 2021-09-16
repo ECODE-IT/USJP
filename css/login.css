@@ -26,8 +26,16 @@
     background-color: #88112F;
 }
 
+.bg-green{
+    background-color: #0A7126;
+}
+
 .text-maroon{
     color:#88112F;
+}
+
+.text-green{
+    color:#0A7126;
 }
 
 .form-control{

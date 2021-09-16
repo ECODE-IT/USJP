@@ -100,32 +100,499 @@
                 </div>
             </div>
         </div>
-        <div class="row bg-light-gray py-1 mt-3">
-            <div class="col-12">Course Details</div>
-        </div>
-        <div class="row bg-light-green py-3">
-            <div class="col-12 col-md-4">
-                <div class="row flex-row">
-                    <div class="my-auto ml-2 px-2">Course Name</div>
-                    <div class="col-8"> <input type="text" class="form-control">
+        <form action="">
+            <div class="row bg-light-gray py-1 mt-3">
+                <div class="col-12">Course Details</div>
+            </div>
+            <div class="row bg-light-green pt-2 pb-3 py-sm-3">
+                <div class="col-12 col-md-4">
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label">Course Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="form-row">
+                        <label class="col-sm-3 pr-0 col-form-label">Medium</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-5">
+                    <div class="form-row">
+                        <label class="col-sm-3 pr-0 col-form-label">Academic Year</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="row flex-row">
-                    <div class="my-auto ml-2 px-2">Medium</div>
-                    <div class="col-9"> <input type="text" class="form-control">
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Personal Information</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Title</label>
+                        <div class="col-sm-1">
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="">Mr</option>
+                                <option value="">Mrs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Initials</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                        <small class="my-auto ml-2">
+                            (eg : A.A)
+                        </small>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Name denoted by Initials</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Last Name</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Date of Birth</label>
+                        <div class="col-sm-2">
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">NIC No</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                        <small class="my-auto ml-2">
+                            (eg : 123456789V)
+                        </small>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Gender</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="radioGender" id="male">
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="radioGender" id="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Civil Status</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="radioCivilStatus" id="single">
+                                <label class="form-check-label" for="single">Single</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="radioCivilStatus" id="married">
+                                <label class="form-check-label" for="married">Married</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Contact Details</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">Address for Communication</label>
+                        <div class="col-sm-2 py-1"><input type="text" placeholder="Address Line 1" class="form-control">
+                        </div>
+                        <div class="col-sm-2 py-1"><input type="text" placeholder="Address Line 2" class="form-control">
+                        </div>
+                        <div class="col-sm-2 py-1"><input type="text" placeholder="Address Line 3" class="form-control">
+                        </div>
+                        <div class="col-sm-2 py-1"><input type="text" placeholder="City" class="form-control"></div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Postal Code</label>
+                        <div class="col-sm-2"><input type="text" placeholder="Postal Code" class="form-control"></div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Permanent Address (If different from
+                            previous)</label>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 1"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 2"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 3"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="City" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Postal Code</label>
+                        <div class="col-sm-2"><input type="text" placeholder="Postal Code" class="form-control"></div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Office Address (If relevant)</label>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 1"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 2"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Address Line 3"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="City" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Postal Code</label>
+                        <div class="col-sm-2"><input type="text" placeholder="Postal Code" class="form-control"></div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">E-mail Address</label>
+                        <div class="col-sm-2"><input type="text" placeholder="E-mail Address" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label">Telephone</label>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Home Number"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Mobile Number"
+                                class="form-control"></div>
+                        <div class="col-sm-2 my-auto py-1"><input type="text" placeholder="Office Number"
+                                class="form-control"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Qualifications</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <span class="font-weight-bold">Academic Qualifications</span>
+                    (please indicate the highest academic qualification first, and list the other
+                    qualifications next)
+                    <table class="table table-borderless table-responsive">
+                        <thead>
+                            <tr class="text-center">
+                                <td scope="col"></td>
+                                <th scope="col">University</th>
+                                <th scope="col">Period</th>
+                                <th scope="col">Major Period</th>
+                                <th scope="col">Degree / Diploma</th>
+                                <th scope="col">Class-if any</th>
+                                <th scope="col">Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <th scope="row">1</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12">
+                    <span class="font-weight-bold">Professional Qualifications</span>
+                    <table class="table table-borderless table-responsive">
+                        <thead>
+                            <tr class="text-center">
+                                <td scope="col"></td>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Period</th>
+                                <th scope="col">Field of Study / Training</th>
+                                <th scope="col">Qualification</th>
+                                <th scope="col">Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-9">
+                    <div class="form-row form-group">
+                        <div class="col-sm-2 pr-0 col-form-label font-weight-bold my-auto">Other Qualifications</div>
+                        <div class="col-sm-9"><textarea type="text" class="form-control"></textarea></div>
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-4">
-                <div class="row flex-row">
-                    <div class="my-auto ml-2 px-2">Academic Year</div>
-                    <div class="col-6"> <input type="text" class="form-control">
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Self Assessment of Proficiency in English</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-sm-4">
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">Reading</label>
+                        <div class="col-sm-9">
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">Writing</label>
+                        <div class="col-sm-9">
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-row form-group">
+                        <label class="col-sm-3 pr-0 col-form-label my-auto">Conversation</label>
+                        <div class="col-sm-9">
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Financial Assistance</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">Financial Plan</label>
+                        <div class="col-sm-4">
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">If sponsered - by whom?</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">If Grant, give Grant name, total amount &
+                            Grant number</label>
+                        <div class="col-sm-8">
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">If other indicate</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Employment Details</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <span class="font-weight-bold mt-2">Present Employment</span>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 pr-0 col-form-label my-auto">Position</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">Name and Address of Employer</label>
+                        <div class="col-sm-8">
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <span class="font-weight-bold mt-2">Employment Record</span>
+                    <table class="table table-borderless table-responsive">
+                        <thead>
+                            <tr class="text-center">
+                                <td scope="col"></td>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Position/Rank</th>
+                                <th scope="col">Period</th>
+                                <th scope="col">Nature of Duty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                                <td><input type="text" class="form-control form-control-sm"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Reasosn</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-12">
+                    <div class="form-row form-group">
+                        <label class="col-sm-4 col-form-label my-auto">
+                            Briefly Describe your Reasons for applying to the program <br>
+                            (Inlcude your personal/career interests)
+                        </label>
+                        <div class="col-sm-8">
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-light-gray py-1">
+                <div class="col-12">Non Related Referees</div>
+            </div>
+            <div class="row bg-light-green pt-3 pb-2">
+                <div class="col-sm-6">
+                    <div class="font-weight-bold py-1 px-2">Referee 1</div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Name
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Address
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Contact No
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="font-weight-bold py-1 px-2">Referee 2</div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Name
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Address
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row form-group">
+                        <label class="col-sm-2 col-form-label my-auto">
+                            Contact No
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-white py-3">
+                <div class="col-12 d-flex justify-content-center" >
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
